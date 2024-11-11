@@ -15,7 +15,6 @@ test("Осуществить поиск с главной страницы", asy
   const resultSearchPage = new ResultSearchPage(page);
   await searchHeaderPage.searchData(searchTerm);
   await expect(resultSearchPage.searchResult).toHaveValue(searchTerm);
-  //, {timeout: 180000},
   const allResultCountValue = await resultSearchPage.allResultCount.evaluate(
     (el) =>
       parseInt(el.textContent, 10, {
@@ -26,7 +25,6 @@ test("Осуществить поиск с главной страницы", asy
   await expect(allResultCountValue).toBeGreaterThan(0);
   await allure.step(
     "Поисковый запрос 'Пушкин' включен в строку url",
-    // { timeout: 180000 },
     async () => {
       const currentUrl = await page.url();
       console.log("Текущий URL:", currentUrl);

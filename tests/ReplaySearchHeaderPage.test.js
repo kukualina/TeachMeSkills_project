@@ -12,16 +12,10 @@ const url =
 test("Осуществить повторный поиск, с Popup", async ({ page }, testInfo) => {
   const replaySearchHeaderPage = new ReplaySearchHeaderPage(page);
   await page.goto(url);
-
-  // await replaySearchHeaderPage.gotoReplaySearchHeaderPage();
   const resultReplaySearchPage = new ResultReplaySearchPage(page);
   await replaySearchHeaderPage.replaySearchData(replaySearchTerm);
   await expect(resultReplaySearchPage.replaySearchResult).toHaveValue(
     replaySearchTerm
-    // ,
-    // {
-    //   timeout: 20000,
-    // }
   );
 
   const allResultCountValue =
@@ -35,10 +29,6 @@ test("Осуществить повторный поиск, с Popup", async ({ 
 
   await allure.step(
     "Поисковый запрос 'Италия' включен в строку url",
-    // ,
-    // {
-    //   timeout: 180000,
-    // },
     async () => {
       const currentUrl = await page.url();
       console.log("Текущий URL:", currentUrl);
