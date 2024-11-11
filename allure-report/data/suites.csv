@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9746","Осуществить повторный поиск, с Popup","firefox","Mon Nov 11 20:59:25 MSK 2024","passed","Mon Nov 11 20:59:34 MSK 2024","","ReplaySearchHeaderPage.test.js","",""
+"","7302","Осуществить повторный поиск, с Popup","webkit","Mon Nov 11 20:59:35 MSK 2024","passed","Mon Nov 11 20:59:43 MSK 2024","","ReplaySearchHeaderPage.test.js","",""
+"","60021","Осуществить поиск с главной страницы","webkit","Mon Nov 11 20:59:38 MSK 2024","broken","Mon Nov 11 21:00:38 MSK 2024","","SearchHeaderPage.test.js","",""
+"","61457","Осуществить поиск с главной страницы","chromium","Mon Nov 11 21:01:21 MSK 2024","broken","Mon Nov 11 21:02:23 MSK 2024","","SearchHeaderPage.test.js","",""
+"","60042","Осуществить поиск с главной страницы","firefox","Mon Nov 11 20:59:25 MSK 2024","broken","Mon Nov 11 21:00:25 MSK 2024","","SearchHeaderPage.test.js","",""
+"","6763","Осуществить повторный поиск, с Popup","chromium","Mon Nov 11 21:03:10 MSK 2024","passed","Mon Nov 11 21:03:17 MSK 2024","","ReplaySearchHeaderPage.test.js","",""
