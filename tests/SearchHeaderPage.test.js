@@ -18,7 +18,7 @@ test("Осуществить поиск с главной страницы", asy
   const allResultCountValue = await resultSearchPage.allResultCount.evaluate(
     (el) =>
       parseInt(el.textContent, 10, {
-        timeout: 180000,
+        timeout: 18000,
       })
   );
   console.log(allResultCountValue);
