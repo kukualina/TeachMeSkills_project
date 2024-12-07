@@ -42,6 +42,7 @@ module.exports = defineConfig({
       name: "chromium",
       use: { ...devices["Desktop Chrome"] },
     },
+    //![Allure Report](images/allure_report.png)
 
     // {
     //   name: "firefox",
