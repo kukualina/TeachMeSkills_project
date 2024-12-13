@@ -14,4 +14,7 @@ export class BasePage {
   async open(url) {
     await this.page.goto(url);
   }
+  async getElementText(element) {
+    return await element.textContent();
+  }
 }

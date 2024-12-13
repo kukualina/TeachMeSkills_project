@@ -8,6 +8,11 @@ class ResultSearchPage extends SearchHeaderPage {
     this.allResultCount = this.page.locator(
       ".__active .search-categories__num"
     );
+    this.replaySearchResult = this.page.getByPlaceholder("Что вы ищете?");
+    this.replayAllResultCount = this.page.locator(
+      ".__active .search-categories__num",
+      { timeout: 180000 }
+    );
   }
 }
 
