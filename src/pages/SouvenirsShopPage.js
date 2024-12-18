@@ -13,10 +13,10 @@ class SouvenirsShopList extends BasePage {
     await this.souvenirName.click();
   }
 
-  async openBookShopList() {
+  async openSouvenirsShopList() {
     await super.open("https://shop.tretyakovgallery.ru/catalog/suveniry");
   }
-  async getBook() {
+  async getSouvenirs() {
     const souvenirName = await super.getElementText(this.souvenirName);
     const priceSouvenir = await super.getElementText(this.priceSouvenir);
     return { souvenirName, priceSouvenir };

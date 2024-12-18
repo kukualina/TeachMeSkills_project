@@ -6,3 +6,6 @@ export * from "./ResultReplaySearchHeaderPage";
 export * from "./CartPage";
 export * from "./BookShopListPage";
 export * from "./ItemCardPage";
+export * from "./SouvenirsShopPage";
+export * from "./SubscribeToTheNewsPage";
+export * from "./ResultAddSubscribeNews";

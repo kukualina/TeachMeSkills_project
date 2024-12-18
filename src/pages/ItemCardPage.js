@@ -7,8 +7,6 @@ class ItemCardPage extends BasePage {
     this.page = page;
     this.addToCartButton = page.locator(".bttn.btn-gold");
   }
-  //("button", { name: "В корзину" })
-  //bttn btn-gold
 
   async addToCart() {
     await this.addToCartButton.click();

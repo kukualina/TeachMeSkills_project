@@ -7,7 +7,6 @@ class BookShopList extends BasePage {
     this.page = page;
     this.bookName = page.locator(".listing-item-details__title").first();
     this.priceBook = page.locator(".item-price-listing-value").nth(2);
-    //добавить цену как в cartPage
   }
 
   async clickBook() {
@@ -21,8 +20,6 @@ class BookShopList extends BasePage {
     const bookName = await super.getElementText(this.bookName);
     const priceBook = await super.getElementText(this.priceBook);
     return { bookName, priceBook };
-
-    //добавить цену как в cartPage
   }
 }
 
