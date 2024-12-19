@@ -6,8 +6,10 @@ class ResultAddSubscribeNews extends SubscribeToTheNews {
     super(page);
     this.page = page;
     this.addSubscribeResult = this.page
-      .getByPlaceholder("Вы успешно подписаны на новости!")
+      .getByRole("Вы успешно подписаны на новости!")
       .first();
+    //page.getByRole('paragraph')
+    this.addSubscribeResult = this.page;
   }
 }
 

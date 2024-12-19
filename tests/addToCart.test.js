@@ -1,5 +1,5 @@
 //https://shop.tretyakovgallery.ru/api/v1/cart/add
-import { test, expect } from "@playwright/test";
+import { expect, test } from "@playwright/test";
 import {
   BookShopList,
   CartPage,
@@ -17,12 +17,10 @@ test.describe("adding items to the shopping cart", () => {
     await bookShopList.clickBook();
     await itemCardPage.addToCart();
     await cartPage.clickCartLink();
+    await expect(page).toHaveURL("https://shop.tretyakovgallery.ru/cart");
     const actualItem = await cartPage.getCartItem();
-    // await expect(expectItem.bookName).toBe(actualItem.itemName);
-    //await expect(expectItem).toMatchObject(actualItem);
-    await expect(expectItem).toEqual(actualItem);
-    await expect(expectItem).toBe(actualItem);
-    //await cartPage.openCartPage();
+    await expect(expectItem.bookName).toBe(actualItem.itemName);
+    await expect(expectItem.priceBook).toBe(actualItem.price);
   });
   test("add Souvenirs", async ({ page }, testInfo) => {
     const souvenirsShopList = new SouvenirsShopList(page);
@@ -34,10 +32,7 @@ test.describe("adding items to the shopping cart", () => {
     await itemCardPage.addToCart();
     await cartPage.clickCartLink();
     const actualItem = await cartPage.getCartItem();
-    // await expect(expectItem.bookName).toBe(actualItem.itemName);
-    //await expect(expectItem).toMatchObject(actualItem);
-    await expect(expectItem).toEqual(actualItem);
-    await expect(expectItem).toBe(actualItem);
-    //await cartPage.openCartPage();
+    await expect(expectItem.souvenirName).toBe(actualItem.itemName);
+    await expect(expectItem.priceSouvenir).toBe(actualItem.price);
   });
 });

@@ -5,21 +5,24 @@ class SubscribeToTheNews extends BasePage {
   constructor(page) {
     super(page);
     this.page = page;
-    this.inputEmailName = page.locator(
-      ".b24-form-control b24-form-control-not-empty"
+    this.clickInputEmail = page.locator(
+      ".b24-form-control-container.b24-form-control-icon-after"
     );
+    this.inputEmailName = page.locator('input[name="email"]');
     this.buttonSouvenir = page.getByText("Отправить").first();
   }
-  // async clickSubscribe() {
-  //   await this.SubscribeName.click();
+  // async clickInputEmail() {
+  //   await this.ClickInputEmail.click();
   // }
 
   async openSubscribePage() {
-    await super.open("https://shop.tretyakovgallery.ru");
+    await super.open("https://shop.tretyakovgallery.ru/");
   }
   async getSubscribe(emailName) {
-    await this.inputEmailName.fill(emailName, { timeout: 200000 });
+    await this.clickInputEmail.click();
+    await this.inputEmailName.fill(emailName);
     await this.buttonSouvenir.click();
+    return emailName;
   }
 }
 
