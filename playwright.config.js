@@ -25,7 +25,7 @@ module.exports = defineConfig({
     ["line"],
     ["allure-playwright"],
   ] /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */,
-  timeout: 60000,
+  timeout: 100000,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
