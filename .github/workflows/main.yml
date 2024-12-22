@@ -3,9 +3,9 @@ name: pw test
 # Когда запускать тесты 
 on:
  push:
-   branches: [mine, master]
+   branches: [mine, master, functional_tests]
  pull_request: 
-   branches: [mine, master]
+   branches: [mine, master, functional_tests]
  workflow_dispatch: 
  # Сама джоба 
 jobs: 
