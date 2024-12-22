@@ -1,14 +1,19 @@
-import { test, expect } from "@playwright/test";
-import { SubscribeToTheNews, ResultAddSubscribeNews } from "../src/pages/index";
+import { test } from "@playwright/test";
+import { MainPage } from "../src/pages/index";
+import { getText } from "../src/utils";
 
 const emailName = "a.kuku@freshauto2.ru";
 
-test("Subscribe To The News", async ({ page }, testInfo) => {
-  const subscribeToTheNews = new SubscribeToTheNews(page);
-  await page.goto("https://shop.tretyakovgallery.ru");
-  const resultAddSubscribeNews = new ResultAddSubscribeNews(page);
-  await subscribeToTheNews.getSubscribe(emailName);
-  await expect(resultAddSubscribeNews.subscribeToTheNews).toHaveValue(
-    emailName
-  );
+test("Subscribe To The News", async ({ page }) => {
+  const mainPage = new MainPage(page);
+
+  await mainPage.openMainPage();
+  await mainPage.subscribe(emailName);
+
+  const text = await getText(mainPage.successText);
+  expect(text).toBe("Вы успешно подписаны на новости!");
+
+  //await expect(text).toHaveText("Вы успешно подписаны на новости!");
+
+  // Проверка expect(text) равен 'Вы успешно подписаны на новости!'
 });
