@@ -21,7 +21,7 @@ on
       - uses: actions/setap-nade@v4
         with: 
           node-version: lts/*
-#установить Playwright 
+#установить PW 
       - name: Install PW
        run: npx playwright install --with-deps
 #запускаем тесты 
