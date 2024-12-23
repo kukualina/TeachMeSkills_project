@@ -1,1 +1,1 @@
-Allure Report
+![alt text](images/allure_report.png)
