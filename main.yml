@@ -1,5 +1,5 @@
-# Название workflow
-name: pw test
+# Название workflow 
+name: pw test 
 # Когда запускать тесты
 on:
   push:
@@ -27,3 +27,4 @@ jobs:
       #запускаем тесты
       - name: Run PW test
         run: npx playwright test
+
