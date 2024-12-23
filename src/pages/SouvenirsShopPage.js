@@ -1,4 +1,3 @@
-// pages/HomePage.js
 import { BasePage } from "./BasePage";
 
 class SouvenirsShopList extends BasePage {

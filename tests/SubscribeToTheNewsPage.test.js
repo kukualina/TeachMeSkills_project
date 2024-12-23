@@ -12,8 +12,4 @@ test("Subscribe To The News", async ({ page }) => {
 
   const text = await getText(mainPage.successText);
   expect(text).toBe("Вы успешно подписаны на новости!");
-
-  //await expect(text).toHaveText("Вы успешно подписаны на новости!");
-
-  // Проверка expect(text) равен 'Вы успешно подписаны на новости!'
 });
