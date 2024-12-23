@@ -1,31 +1,29 @@
-# Название workflow 
-name: pw test 
-# Когда запускать тесты 
-on 
- push: 
-   branches: [mine, master, functional_tests]
- pull_request: 
-   branches: [mine, master, functional_tests]
- workflow_dispatch: 
- # Сама джоба 
- jobs: 
- #название джобы
-   test:
-     timeout-minutes: 60 
-     #задаем окружение 
-     runs-on: ubuntu-latest 
-     steps: 
-#делаем чекаут 
+# Название workflow
+name: pw test
+# Когда запускать тесты
+on:
+  push:
+    branches: [mine, master, functional_tests]
+  pull_request:
+    branches: [mine, master, functional_tests]
+  workflow_dispatch:
+  # Сама джоба
+jobs:
+  #название джобы
+  test:
+    timeout-minutes: 60
+    #задаем окружение
+    runs-on: ubuntu-latest
+    steps:
+      #делаем чекаут
       - uses: actions/checkout@v4
-#устанвливаем ноду
+      #устанвливаем ноду
       - uses: actions/setap-nade@v4
-        with: 
+        with:
           node-version: lts/*
-#установить Playwright 
+      #установить PW
       - name: Install PW
-       run: npx playwright install --with-deps
-#запускаем тесты 
+        run: npx playwright install --with-deps
+      #запускаем тесты
       - name: Run PW test
         run: npx playwright test
-
- 
