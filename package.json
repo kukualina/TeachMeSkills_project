@@ -9,7 +9,7 @@
     "debug": "npx playwright test --ui",
     "allureGenerate": "allure generate --clean",
     "allureOpen": "allure open",
-    "allure": "allure generate --clean && allure open"
+    "allure": "allure serve allure-results"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,27 @@
+undefined
+{
+  server: 'nginx',
+  date: 'Wed, 18 Dec 2024 18:26:50 GMT',
+  'content-type': 'text/html; charset=utf-8',
+  'transfer-encoding': 'chunked',
+  connection: 'keep-alive',
+  'x-dns-prefetch-control': 'off',
+  'expect-ct': 'max-age=0',
+  'x-frame-options': 'SAMEORIGIN',
+  'strict-transport-security': 'max-age=15552000; includeSubDomains',
+  'x-download-options': 'noopen',
+  'x-content-type-options': 'nosniff, nosniff',
+  'x-permitted-cross-domain-policies': 'none',
+  'referrer-policy': 'no-referrer',
+  'x-xss-protection': '0',
+  etag: '"1056cf-1YvHzw0RPmzjHjbQ7eobWTjqVow"',
+  'accept-ranges': 'none',
+  vary: 'Accept-Encoding',
+  'content-encoding': 'gzip'
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 574,
+  [Symbol(trigger_async_id_symbol)]: 291,
+  [Symbol(kResourceStore)]: undefined
+}

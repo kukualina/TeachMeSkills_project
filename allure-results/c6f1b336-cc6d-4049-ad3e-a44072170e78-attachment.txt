@@ -1,0 +1,7 @@
+{ item: { item_id: 14924, quantity: 1 } }
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 423,
+  [Symbol(trigger_async_id_symbol)]: 291,
+  [Symbol(kResourceStore)]: undefined
+}

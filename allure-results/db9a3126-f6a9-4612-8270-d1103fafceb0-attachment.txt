@@ -1,0 +1,17 @@
+Тело запроса: {
+  "item": {
+    "item": 14924,
+    "quantity": 1
+  }
+}
+статус ответа 200
+статус ответа Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 453,
+  [Symbol(trigger_async_id_symbol)]: 291,
+  [Symbol(kResourceStore)]: undefined
+}
+Ответ сервера: {
+  "success": false,
+  "message": "Item data invalid"
+}

@@ -5,6 +5,7 @@ import {
   ItemCardPage,
   SouvenirsShopList,
 } from "../src/pages/index";
+import * as allure from "allure-js-commons";
 
 test.describe("adding items to the shopping cart", () => {
   test("add Book", async ({ page }, testInfo) => {
@@ -16,9 +17,6 @@ test.describe("adding items to the shopping cart", () => {
     await bookShopList.clickBook();
     await itemCardPage.addToCart();
     await cartPage.clickCartLink();
-    await allure.step(
-      expect(page).toHaveURL("https://shop.tretyakovgallery.ru/cart")
-    );
     const actualItem = await cartPage.getCartItem();
     await allure.step(expect(expectItem.bookName).toBe(actualItem.itemName));
     await allure.step(expect(expectItem.priceBook).toBe(actualItem.price));

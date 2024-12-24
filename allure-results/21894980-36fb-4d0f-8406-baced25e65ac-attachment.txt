@@ -1,0 +1,276 @@
+Тело запроса: {
+  "item": {
+    "item_id": 14943,
+    "quantity": 1
+  }
+}
+Статус ответа: 200
+Ответ сервера: {
+  "success": true,
+  "cart": {
+    "id": 127424,
+    "total_price_before_discount": 850,
+    "total_price": 850,
+    "discount": null,
+    "discount_rub": 0,
+    "items": [
+      {
+        "id": 345500,
+        "quantity": 1,
+        "price": 850,
+        "total_price": 850,
+        "item": {
+          "data": {
+            "id": "14943",
+            "type": "item",
+            "attributes": {
+              "id": 14943,
+              "title": "Футляр для очков Н.К. Рерих «Канченджунга»",
+              "manufacturer": {
+                "id": 887,
+                "title": "Третьяковская галерея",
+                "slug": "tretyakovskaya-galereya",
+                "created_at": "2020-08-24T12:29:22.958+03:00",
+                "updated_at": "2020-08-24T12:29:22.961+03:00",
+                "manufacturerships_count": 1579,
+                "media": {
+                  "url": null
+                },
+                "items_count": 723,
+                "link": null
+              },
+              "category": {
+                "id": 106,
+                "title": "Футляры для очков",
+                "ancestry": "3",
+                "slug": "futlyary-dlya-ochkov",
+                "cached_path": "suveniry/futlyary-dlya-ochkov",
+                "position": 9,
+                "hidden": false,
+                "created_at": "2022-01-11T15:38:54.062+03:00",
+                "updated_at": "2022-01-11T15:40:11.596+03:00",
+                "extra_fields": null,
+                "author_hidden": true,
+                "brand_hidden": false,
+                "publisher_hidden": true
+              },
+              "prev_price": 500,
+              "price": 850,
+              "club_price": null,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22906,
+                "uploadable_type": "Item",
+                "uploadable_id": 14943,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/8ff478d6cabdba1b.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/tiny_8ff478d6cabdba1b.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/thumb_8ff478d6cabdba1b.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/medium_8ff478d6cabdba1b.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/large_8ff478d6cabdba1b.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-12-04T13:37:00.917+03:00",
+                "updated_at": "2024-12-04T13:37:00.917+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "delivery_items": [
+      {
+        "id": 345500,
+        "quantity": 1,
+        "price": 850,
+        "total_price": 850,
+        "item": {
+          "data": {
+            "id": "14943",
+            "type": "item",
+            "attributes": {
+              "id": 14943,
+              "title": "Футляр для очков Н.К. Рерих «Канченджунга»",
+              "manufacturer": {
+                "id": 887,
+                "title": "Третьяковская галерея",
+                "slug": "tretyakovskaya-galereya",
+                "created_at": "2020-08-24T12:29:22.958+03:00",
+                "updated_at": "2020-08-24T12:29:22.961+03:00",
+                "manufacturerships_count": 1579,
+                "media": {
+                  "url": null
+                },
+                "items_count": 723,
+                "link": null
+              },
+              "category": {
+                "id": 106,
+                "title": "Футляры для очков",
+                "ancestry": "3",
+                "slug": "futlyary-dlya-ochkov",
+                "cached_path": "suveniry/futlyary-dlya-ochkov",
+                "position": 9,
+                "hidden": false,
+                "created_at": "2022-01-11T15:38:54.062+03:00",
+                "updated_at": "2022-01-11T15:40:11.596+03:00",
+                "extra_fields": null,
+                "author_hidden": true,
+                "brand_hidden": false,
+                "publisher_hidden": true
+              },
+              "prev_price": 500,
+              "price": 850,
+              "club_price": null,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22906,
+                "uploadable_type": "Item",
+                "uploadable_id": 14943,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/8ff478d6cabdba1b.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/tiny_8ff478d6cabdba1b.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/thumb_8ff478d6cabdba1b.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/medium_8ff478d6cabdba1b.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/large_8ff478d6cabdba1b.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-12-04T13:37:00.917+03:00",
+                "updated_at": "2024-12-04T13:37:00.917+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "pickup_items": [
+      {
+        "id": 345500,
+        "quantity": 1,
+        "price": 850,
+        "total_price": 850,
+        "item": {
+          "data": {
+            "id": "14943",
+            "type": "item",
+            "attributes": {
+              "id": 14943,
+              "title": "Футляр для очков Н.К. Рерих «Канченджунга»",
+              "manufacturer": {
+                "id": 887,
+                "title": "Третьяковская галерея",
+                "slug": "tretyakovskaya-galereya",
+                "created_at": "2020-08-24T12:29:22.958+03:00",
+                "updated_at": "2020-08-24T12:29:22.961+03:00",
+                "manufacturerships_count": 1579,
+                "media": {
+                  "url": null
+                },
+                "items_count": 723,
+                "link": null
+              },
+              "category": {
+                "id": 106,
+                "title": "Футляры для очков",
+                "ancestry": "3",
+                "slug": "futlyary-dlya-ochkov",
+                "cached_path": "suveniry/futlyary-dlya-ochkov",
+                "position": 9,
+                "hidden": false,
+                "created_at": "2022-01-11T15:38:54.062+03:00",
+                "updated_at": "2022-01-11T15:40:11.596+03:00",
+                "extra_fields": null,
+                "author_hidden": true,
+                "brand_hidden": false,
+                "publisher_hidden": true
+              },
+              "prev_price": 500,
+              "price": 850,
+              "club_price": null,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22906,
+                "uploadable_type": "Item",
+                "uploadable_id": 14943,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/8ff478d6cabdba1b.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/tiny_8ff478d6cabdba1b.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/thumb_8ff478d6cabdba1b.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/medium_8ff478d6cabdba1b.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/00/00/00/0h/oa/large_8ff478d6cabdba1b.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-12-04T13:37:00.917+03:00",
+                "updated_at": "2024-12-04T13:37:00.917+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "delivery_items_total_price": 850,
+    "pickup_items_total_price": 850,
+    "delivery_items_discount_rub": 0,
+    "pickup_items_discount_rub": 0
+  }
+}

@@ -1,4 +1,5 @@
-const { test, expect } = require("@playwright/test");
+import { test, expect } from "@playwright/test";
+
 const { json } = require("stream/consumers");
 
 test.describe("API Tests for Tretyakov Gallery GET Knigi", async () => {
@@ -71,4 +72,3 @@ test.describe("API Tests for Tretyakov Gallery GET Knigi", async () => {
     );
   });
 });
-//https://shop.tretyakovgallery.ru/api/v1/categories/suveniry

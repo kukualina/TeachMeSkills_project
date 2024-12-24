@@ -1,0 +1,11 @@
+Тело запроса: {
+  "item": {
+    "item": 14924,
+    "quantity": 1
+  }
+}
+статус ответа 200
+Ответ сервера: {
+  "success": false,
+  "message": "Item data invalid"
+}
