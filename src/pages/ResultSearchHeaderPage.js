@@ -7,9 +7,10 @@ class ResultSearchPage extends SearchHeaderPage {
     this.searchResult = this.page.getByRole("link", {
       name: 'Блокнот на резинке О.А. Кипренский "Портрет поэта Ал...',
     });
-    this.searchReplayResult = this.page.locator("a").filter({
-      hasText: "«Сказки А.С. Пушкина в отражении лаковых миниатюр»",
-    });
+    // this.searchReplayResult = this.page.locator("a").filter({
+    //   hasText: "«Сказки А.С. Пушкина в отражении лаковых миниатюр»",
+    // });
+    this.searchReplayResult = this.page.locator("breadcrumbs-item.active");
   }
 }
 
