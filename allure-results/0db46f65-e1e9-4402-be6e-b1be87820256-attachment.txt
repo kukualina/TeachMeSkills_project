@@ -1,0 +1,6 @@
+Ошибка при получении данных: Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 2282,
+  [Symbol(trigger_async_id_symbol)]: 2170,
+  [Symbol(kResourceStore)]: undefined
+}

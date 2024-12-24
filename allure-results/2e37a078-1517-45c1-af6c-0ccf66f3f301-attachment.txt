@@ -1,0 +1,282 @@
+Тело запроса: {
+  "item": {
+    "item_id": 14924,
+    "quantity": 1
+  }
+}
+Статус ответа: 200
+Ответ сервера: {
+  "success": true,
+  "cart": {
+    "id": 127419,
+    "total_price_before_discount": 3500,
+    "total_price": 3500,
+    "discount": null,
+    "discount_rub": 0,
+    "items": [
+      {
+        "id": 345486,
+        "quantity": 1,
+        "price": 3500,
+        "total_price": 3500,
+        "item": {
+          "data": {
+            "id": "14924",
+            "type": "item",
+            "attributes": {
+              "id": 14924,
+              "title": "Альбом \"Виктор Попков\"",
+              "manufacturer": {
+                "id": 277,
+                "title": "Государственная Третьяковская галерея",
+                "slug": "gosudarstvennaya-tretyakovskaya-galereya",
+                "created_at": "2019-12-05T23:08:52.222+03:00",
+                "updated_at": "2019-12-05T23:08:52.224+03:00",
+                "manufacturerships_count": 373,
+                "media": {
+                  "url": null
+                },
+                "items_count": 147,
+                "link": null
+              },
+              "category": {
+                "id": 14,
+                "title": "Каталоги выставок",
+                "ancestry": "2",
+                "slug": "katalogi-vystavok",
+                "cached_path": "knigi/katalogi-vystavok",
+                "position": 2,
+                "hidden": false,
+                "created_at": "2018-02-28T14:45:44.715+03:00",
+                "updated_at": "2023-12-20T13:48:17.207+03:00",
+                "extra_fields": {
+                  "seo_item_type": "каталог выставки"
+                },
+                "author_hidden": false,
+                "brand_hidden": false,
+                "publisher_hidden": false
+              },
+              "prev_price": 2800,
+              "price": 3500,
+              "club_price": 3150,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22759,
+                "uploadable_type": "Item",
+                "uploadable_id": 14924,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/a8faeaf0ec0b2431.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/tiny_a8faeaf0ec0b2431.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/thumb_a8faeaf0ec0b2431.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/medium_a8faeaf0ec0b2431.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/large_a8faeaf0ec0b2431.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-11-19T18:02:20.316+03:00",
+                "updated_at": "2024-11-19T18:02:20.316+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "delivery_items": [
+      {
+        "id": 345486,
+        "quantity": 1,
+        "price": 3500,
+        "total_price": 3500,
+        "item": {
+          "data": {
+            "id": "14924",
+            "type": "item",
+            "attributes": {
+              "id": 14924,
+              "title": "Альбом \"Виктор Попков\"",
+              "manufacturer": {
+                "id": 277,
+                "title": "Государственная Третьяковская галерея",
+                "slug": "gosudarstvennaya-tretyakovskaya-galereya",
+                "created_at": "2019-12-05T23:08:52.222+03:00",
+                "updated_at": "2019-12-05T23:08:52.224+03:00",
+                "manufacturerships_count": 373,
+                "media": {
+                  "url": null
+                },
+                "items_count": 147,
+                "link": null
+              },
+              "category": {
+                "id": 14,
+                "title": "Каталоги выставок",
+                "ancestry": "2",
+                "slug": "katalogi-vystavok",
+                "cached_path": "knigi/katalogi-vystavok",
+                "position": 2,
+                "hidden": false,
+                "created_at": "2018-02-28T14:45:44.715+03:00",
+                "updated_at": "2023-12-20T13:48:17.207+03:00",
+                "extra_fields": {
+                  "seo_item_type": "каталог выставки"
+                },
+                "author_hidden": false,
+                "brand_hidden": false,
+                "publisher_hidden": false
+              },
+              "prev_price": 2800,
+              "price": 3500,
+              "club_price": 3150,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22759,
+                "uploadable_type": "Item",
+                "uploadable_id": 14924,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/a8faeaf0ec0b2431.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/tiny_a8faeaf0ec0b2431.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/thumb_a8faeaf0ec0b2431.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/medium_a8faeaf0ec0b2431.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/large_a8faeaf0ec0b2431.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-11-19T18:02:20.316+03:00",
+                "updated_at": "2024-11-19T18:02:20.316+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "pickup_items": [
+      {
+        "id": 345486,
+        "quantity": 1,
+        "price": 3500,
+        "total_price": 3500,
+        "item": {
+          "data": {
+            "id": "14924",
+            "type": "item",
+            "attributes": {
+              "id": 14924,
+              "title": "Альбом \"Виктор Попков\"",
+              "manufacturer": {
+                "id": 277,
+                "title": "Государственная Третьяковская галерея",
+                "slug": "gosudarstvennaya-tretyakovskaya-galereya",
+                "created_at": "2019-12-05T23:08:52.222+03:00",
+                "updated_at": "2019-12-05T23:08:52.224+03:00",
+                "manufacturerships_count": 373,
+                "media": {
+                  "url": null
+                },
+                "items_count": 147,
+                "link": null
+              },
+              "category": {
+                "id": 14,
+                "title": "Каталоги выставок",
+                "ancestry": "2",
+                "slug": "katalogi-vystavok",
+                "cached_path": "knigi/katalogi-vystavok",
+                "position": 2,
+                "hidden": false,
+                "created_at": "2018-02-28T14:45:44.715+03:00",
+                "updated_at": "2023-12-20T13:48:17.207+03:00",
+                "extra_fields": {
+                  "seo_item_type": "каталог выставки"
+                },
+                "author_hidden": false,
+                "brand_hidden": false,
+                "publisher_hidden": false
+              },
+              "prev_price": 2800,
+              "price": 3500,
+              "club_price": 3150,
+              "in_sale": false,
+              "available": true,
+              "available_delivery": true,
+              "available_pickup": true,
+              "prepaid": false,
+              "info": null,
+              "variation_item": false,
+              "variation_name": null,
+              "retail_only": false,
+              "image": {
+                "id": 22759,
+                "uploadable_type": "Item",
+                "uploadable_id": 14924,
+                "media": {
+                  "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/a8faeaf0ec0b2431.jpg",
+                  "tiny": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/tiny_a8faeaf0ec0b2431.jpg"
+                  },
+                  "thumb": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/thumb_a8faeaf0ec0b2431.jpg"
+                  },
+                  "medium": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/medium_a8faeaf0ec0b2431.jpg"
+                  },
+                  "large": {
+                    "url": "https://shop.tretyakovgallery.ru/uploads/01/00/00/0h/k7/large_a8faeaf0ec0b2431.jpg"
+                  }
+                },
+                "position": 1,
+                "created_at": "2024-11-19T18:02:20.316+03:00",
+                "updated_at": "2024-11-19T18:02:20.316+03:00",
+                "url": null
+              },
+              "in_wishlist": null,
+              "in_cart": true
+            }
+          }
+        },
+        "variation": null
+      }
+    ],
+    "delivery_items_total_price": 3500,
+    "pickup_items_total_price": 3500,
+    "delivery_items_discount_rub": 0,
+    "pickup_items_discount_rub": 0
+  }
+}

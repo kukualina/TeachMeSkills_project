@@ -1,0 +1,19 @@
+{ success: false, message: 'Item data invalid' }
+{
+  server: 'nginx',
+  date: 'Thu, 19 Dec 2024 17:59:07 GMT',
+  'content-type': 'application/json; charset=utf-8',
+  'transfer-encoding': 'chunked',
+  connection: 'keep-alive',
+  'x-frame-options': 'SAMEORIGIN',
+  'x-xss-protection': '1; mode=block',
+  'x-content-type-options': 'nosniff, nosniff',
+  'x-download-options': 'noopen',
+  'x-permitted-cross-domain-policies': 'none',
+  'referrer-policy': 'strict-origin-when-cross-origin',
+  etag: 'W/"e9e1cf62ee1601e292d20b2dd9496a53"',
+  'cache-control': 'max-age=0, private, must-revalidate',
+  'x-request-id': '093643bf-cc7f-4bce-a327-98265cbc932f',
+  'x-runtime': '0.006903',
+  vary: 'Origin'
+}
