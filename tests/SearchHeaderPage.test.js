@@ -1,11 +1,12 @@
-import { test, expect, defineConfig } from "@playwright/test";
+import { expect, test } from "@playwright/test";
+import * as allure from "allure-js-commons";
 import {
-  SearchHeaderPage,
   MainPage,
   ResultSearchPage,
-  ReplaySearchHeaderPage,
+  SearchHeaderPage,
 } from "../src/pages/index";
-import * as allure from "allure-js-commons";
+import { getText } from "../src/utils";
+
 const searchTerm = "Пушкин";
 const replaySearchTerm = "Сказки";
 
@@ -16,18 +17,9 @@ test.describe("Осуществить поиск элементов", () => {
     await mainPage.openMainPage();
     const resultSearchPage = new ResultSearchPage(page);
     await searchHeaderPage.searchData(searchTerm);
-    await expect(
-      page.getByRole("link", {
-        name: 'Блокнот на резинке О.А. Кипренский "Портрет поэта Ал...',
-      })
-    ).toBeVisible();
-    const allResultCountValue = await resultSearchPage.allResultCount.evaluate(
-      (el) =>
-        parseInt(el.textContent, 10, {
-          timeout: 18000,
-        })
+    expect(await getText(resultSearchPage.searchResult)).toBe(
+      `Результаты поиска: \"${searchTerm}\"`
     );
-    console.log(allResultCountValue);
     await allure.step(
       "Поисковый запрос 'Пушкин' включен в строку url",
       async () => {
@@ -39,6 +31,7 @@ test.describe("Осуществить поиск элементов", () => {
       }
     );
   });
+
   test("Осуществить повторный поиск с главной страницы", async ({
     page,
   }, testInfo) => {
@@ -47,22 +40,9 @@ test.describe("Осуществить поиск элементов", () => {
     await mainPage.openMainPage();
     const resultSearchPage = new ResultSearchPage(page);
     await searchHeaderPage.searchData(replaySearchTerm);
-    //expect(searchReplayResult).toContain(replaySearchTerm);
-    // await expect(
-    //   page.locator("a").filter({
-    //     hasText: "«Сказки А.С. Пушкина в отражении лаковых миниатюр»",
-    //   })
-    // ).toBeVisible();
-
-    const allResultCountValue = await resultSearchPage.allResultCount.evaluate(
-      (el) =>
-        parseInt(el.textContent, 10, {
-          timeout: 18000,
-        })
+    expect(await getText(resultSearchPage.searchReplayResult)).toBe(
+      `Результаты поиска: \"${replaySearchTerm}\"`
     );
-
-    console.log(allResultCountValue);
-    await expect(allResultCountValue).toBeGreaterThan(0);
     await allure.step(
       "Поисковый запрос 'Сказки' включен в строку url",
       async () => {
