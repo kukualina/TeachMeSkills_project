@@ -56,13 +56,6 @@ npx playwright test --ui
 ```
 npm run allureGenerate
 npm run allureOpen
-
-
-<a id="allureReport"></a>
-## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/001-aldvo-JsPlaywrightFinalWork/22/allure/"> Allure-отчета </a>
-<p align="center">
-<img title="Allure Report" src="images/allure_report.png">
-</p>
 ```
 
 ![alt text](images/allure_report.png)
