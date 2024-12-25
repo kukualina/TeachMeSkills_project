@@ -1,27 +1,69 @@
 ![alt text](images/allure_report.png)
 
-# 🎭 Playwright JS + Playwright 🎭
+<h1 align="center">Дипломный проект по автоматизации тестирования сайта на Playwright + JS</h1>
 
-## 📃 About this project
+## Содержание:
 
-#### The project provides tests for the Graduation project:
+- <a href="#cases"> Тест-кейсы</a>
+- <a href="#autotests"> Запуск автотестов</a>
+- <a href="#generateAllureReport"> Генерация отчетов</a>
+- <a href="#allureReport"> Пример Allure-отчета</a>
 
-- 5 api tests
-- 5 UI (functional tests)
-- Allure-reports
-- CI-CD
-- Readme
-- Reporting
+<a id="cases"></a>
 
-  - Allure is enabled with history saved in Github
+## 🕵️‍♂️ Тест-кейсы
 
-  - Added screenshots of allure and allure testops
-  - The launch results are transmitted to allure testops
+Auto:
 
-## Run the tests:
+- Проверка поиска элементов с главной страницы
+- Повторная проверка поиска элементов с главной страницы
+- Проверка выбора товара из каталога и добавление его в корзину
+- Проверка на подписку новостей
+- API тесты
 
-- In the Console: npx playwright test
-- In the Chromium: npx playwright test --ui
-- In the Allure-reporting :
-  - npm run allure
-  - allure serve allure-results
+<a id="autotests"></a>
+
+---
+
+## ▶️ Запуск автотестов, генерация отчетов
+
+### Запуск тестов из терминала
+
+Для запуска всех тестов использовать команду ниже:
+
+```
+npm test
+```
+
+Для запуска тестов на API:
+
+```
+npx playwright test:api
+```
+
+Для запуска тестов на UI:
+
+```
+npx playwright test --ui
+```
+
+<a id="generateAllureReport"></a>
+
+---
+
+### Генерация отчетов Allure из терминала
+
+Для генерация отчетов использовать команду ниже:
+
+```
+npm run allureGenerate
+npm run allureOpen
+
+
+<a id="allureReport"></a>
+## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/001-aldvo-JsPlaywrightFinalWork/22/allure/"> Allure-отчета </a>
+<p align="center">
+<img title="Allure Report" src="images/allure_report.png">
+</p>
+
+```
