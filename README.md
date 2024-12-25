@@ -1,5 +1,3 @@
-![alt text](images/allure_report.png)
-
 <h1 align="center">Дипломный проект по автоматизации тестирования сайта на Playwright + JS</h1>
 
 ## Содержание:
@@ -65,5 +63,6 @@ npm run allureOpen
 <p align="center">
 <img title="Allure Report" src="images/allure_report.png">
 </p>
-
 ```
+
+![alt text](images/allure_report.png)
