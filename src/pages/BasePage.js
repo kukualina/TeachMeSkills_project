@@ -1,5 +1,5 @@
 // basePage.js
-const { chromium } = require("playwright");
+const { chromium } = require('playwright');
 
 export class BasePage {
   constructor(page) {
@@ -16,5 +16,14 @@ export class BasePage {
   }
   async getElementText(element) {
     return await element.textContent();
+  }
+  async closePopup() {
+    const popup = this.page.locator('#popup-1497');
+    if (await popup.isVisible()) {
+      await this.page.evaluate(() => {
+        const el = document.getElementById('popup-1497');
+        if (el) el.remove();
+      });
+    }
   }
 }
