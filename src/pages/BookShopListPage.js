@@ -1,11 +1,10 @@
-import { BasePage } from "./BasePage";
+import { BasePage } from './BasePage';
 
 class BookShopList extends BasePage {
   constructor(page) {
     super(page);
-    this.page = page;
-    this.bookName = page.locator(".listing-item-details__title").first();
-    this.priceBook = page.locator(".item-price-listing-value").nth(0);
+    this.bookName = page.locator('.listing-item-details__title').nth(4);
+    this.priceBook = page.locator('.item-price-listing-value').nth(4);
   }
 
   async clickBook() {
@@ -13,7 +12,7 @@ class BookShopList extends BasePage {
   }
 
   async openBookShopList() {
-    await super.open("https://shop.tretyakovgallery.ru/catalog/knigi");
+    await super.open('https://shop.tretyakovgallery.ru/catalog/knigi');
   }
   async getBook() {
     const bookName = await super.getElementText(this.bookName);
